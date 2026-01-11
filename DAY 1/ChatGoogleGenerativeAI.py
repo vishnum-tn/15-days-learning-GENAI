@@ -19,7 +19,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=google_api_key)
 # Create a chat prompt template
 chat_template = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a helpful AI assistant."),
+        ("system", "You are a  assistant."),
         ("human", "{user_input}"),
     ]
 )
